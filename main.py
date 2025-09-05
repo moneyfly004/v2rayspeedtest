@@ -21,8 +21,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # https://raw.githubusercontent.com/maplelgj/TV/9997fd858b33405d56adb127ed686dc480c32dc4/VV
 # https://raw.githubusercontent.com/qjlxg/ProxyCollector/refs/heads/master/sub/proxies.txt
 # https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml
+# https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/v2ray.txt
 # 订阅链接列表
 links = [
+    "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/v2ray.txt",     
     "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml",     
     "https://raw.githubusercontent.com/maplelgj/TV/9997fd858b33405d56adb127ed686dc480c32dc4/VV", 
     "https://raw.githubusercontent.com/hzrenji/hzdx/fae232f376c63c473c9c155664dac6d296967510/sudu", 
