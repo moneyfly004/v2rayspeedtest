@@ -22,12 +22,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # https://raw.githubusercontent.com/qjlxg/ProxyCollector/refs/heads/master/sub/proxies.txt
 # https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml
 # https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/v2ray.txt
+# https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml
 # 订阅链接列表
 links = [
-    "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml",     
+    "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml",
+    "https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml",      
     "https://raw.githubusercontent.com/WLget/V2Ray_configs_64/master/ConfigSub_list.txt",    
     "https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/refs/heads/master/node.txt", 
     "https://raw.githubusercontent.com/jgchengxin/ssr_subscrible_tool/refs/heads/master/node.txt",
+    "https://raw.githubusercontent.com/LuoFei1994/sing-box/8c5b1fa8f8f9c4f4b96c4d5fac90abc4d2527272/Android4.json",
 ]
 
 # 测试使用
