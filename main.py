@@ -26,7 +26,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # 订阅链接列表
 links = [
     "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml",
-    "https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml",      
+    "https://raw.githubusercontent.com/DAlxbss/LXbbsv/refs/heads/main/%E8%8A%82%E7%82%B9/%E8%B5%9B%E7%9B%BE.txt",      
     "https://raw.githubusercontent.com/WLget/V2Ray_configs_64/master/ConfigSub_list.txt",    
     "https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/refs/heads/master/node.txt", 
     "https://raw.githubusercontent.com/jgchengxin/ssr_subscrible_tool/refs/heads/master/node.txt",
