@@ -25,8 +25,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml
 # 订阅链接列表
 links = [
-    "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml",
-    "https://raw.githubusercontent.com/DAlxbss/LXbbsv/refs/heads/main/%E8%8A%82%E7%82%B9/%E8%B5%9B%E7%9B%BE.txt",      
+    "https://raw.githubusercontent.com/DAlxbss/LXbbsv/refs/heads/main/%E8%8A%82%E7%82%B9/%E8%B5%9B%E7%9B%BE.txt",
+    "https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml",      
     "https://raw.githubusercontent.com/WLget/V2Ray_configs_64/master/ConfigSub_list.txt",    
     "https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/refs/heads/master/node.txt", 
     "https://raw.githubusercontent.com/jgchengxin/ssr_subscrible_tool/refs/heads/master/node.txt",
@@ -175,7 +175,7 @@ def get_github_filename(github_url, file_suffix):
 def format_current_date(url):
     """替换URL中的日期占位符和{x}占位符"""
     # 定义和生成所有可能的日期格式变量
-    now = datetime.now()
+    现在 = datetime.now()
     date_vars = {
         # 基本日期组件
         'Y': now.strftime('%Y'),          # 年份，如2023
@@ -590,11 +590,11 @@ def parse_v2ray_uri(uri):
                         }
                 except Exception as e:
                     # print(f"Invalid ss URI format: {uri}, error: {str(e)}")
-                    return None
+                    return 无
 
         # 处理shadowsocksr协议
         elif uri.startswith('ssr://'):
-            b64_config = uri.replace('ssr://', '')
+            b64_config = uri.替换('ssr://'， '')
             try:
                 # 确保base64正确填充
                 b64_config = b64_config + '=' * (-len(b64_config) % 4)
@@ -610,14 +610,14 @@ def parse_v2ray_uri(uri):
                     obfs = parts[4]
                     
                     # 处理剩余参数
-                    password_and_params = parts[5].split('/?', 1)
+                    password_and_params = parts[5]。split('/?', 1)
                     password_b64 = password_and_params[0]
                     password = base64.b64decode(password_b64 + '=' * (-len(password_b64) % 4)).decode()
                     
                     # 提取参数
                     name = 'Unknown'
-                    if len(password_and_params) > 1 and 'remarks=' in password_and_params[1]:
-                        remarks_b64 = password_and_params[1].split('remarks=', 1)[1].split('&', 1)[0]
+                    if len(password_and_params) > 1 和 'remarks=' in password_and_params[1]:
+                        remarks_b64 = password_and_params[1]。split('remarks=', 1)[1].split('&', 1)[0]
                         try:
                             name = base64.b64decode(remarks_b64 + '=' * (-len(remarks_b64) % 4)).decode()
                         except:
@@ -627,7 +627,7 @@ def parse_v2ray_uri(uri):
                         'type': 'ssr',
                         'name': name,
                         'server': server,
-                        'port': int(port),
+                        'port': int(port)，
                         'protocol': protocol,
                         'cipher': method,
                         'obfs': obfs,
@@ -635,7 +635,7 @@ def parse_v2ray_uri(uri):
                     }
             except Exception as e:
                 # print(f"Error parsing SSR URI: {str(e)}")
-                return None
+                return 无
                 
         # 处理HTTP/HTTPS协议
         elif uri.startswith(('http://', 'https://')):
@@ -644,8 +644,8 @@ def parse_v2ray_uri(uri):
             return {
                 'type': 'http' if uri.startswith('http://') else 'https',
                 'name': query.get('remarks', ['Unknown'])[0],
-                'server': parsed.hostname or '',
-                'port': parsed.port or (80 if uri.startswith('http://') else 443),
+                'server': parsed.hostname 或 ''，
+                'port': parsed.port 或 (80 if uri.startswith('http://') else 443),
                 'username': parsed.username or '',
                 'password': parsed.password or ''
             }
@@ -660,7 +660,7 @@ def parse_v2ray_uri(uri):
                 'server': parsed.hostname or '',
                 'port': parsed.port or 1080,
                 'username': parsed.username or '',
-                'password': parsed.password or ''
+                'password': parsed.password 或 ''
             }
             
         # 处理hysteria协议
@@ -669,9 +669,9 @@ def parse_v2ray_uri(uri):
             query = parse_qs(parsed.query)
             return {
                 'type': 'hysteria',
-                'name': query.get('peer', ['Unknown'])[0],
-                'server': parsed.hostname or '',
-                'port': parsed.port or 443,
+                'name': query.get('peer'， ['Unknown'])[0]，
+                'server': parsed.hostname 或 ''，
+                'port': parsed.port 或 443，
                 'protocol': query.get('protocol', [''])[0],
                 'auth': parsed.username or query.get('auth', [''])[0]
             }
@@ -1667,6 +1667,8 @@ def main():
     
     # 查找核心程序
     CORE_PATH = find_core_program()
+    if not CORE_PATH:
+        print("警告: 未找到核心程序，将跳过节点测试，但仍会生成all.txt文件")
     
     all_nodes = []
     
@@ -1696,59 +1698,89 @@ def main():
     # return
     
     # 使用线程池并发测试节点延迟
-    print(f"\n开始测试节点延迟...")
     valid_nodes = []
-    # 限制并发数量，避免资源耗尽
-    with ThreadPoolExecutor(max_workers=MAX_CONCURRENT_TESTS) as executor:
-        future_to_node = {executor.submit(process_node, node): node for node in all_nodes}
-        for future in as_completed(future_to_node):
-            processed_node = future.result()
-            if processed_node:
-                valid_nodes.append(processed_node)
-    
-    print(f"\n测试完成，有效节点数量: {len(valid_nodes)}")
+    if CORE_PATH:
+        print(f"\n开始测试节点延迟...")
+        # 限制并发数量，避免资源耗尽
+        with ThreadPoolExecutor(max_workers=MAX_CONCURRENT_TESTS) as executor:
+            future_to_node = {executor.submit(process_node, node): node for node in all_nodes}
+            for future in as_completed(future_to_node):
+                processed_node = future.result()
+                if processed_node:
+                    valid_nodes.append(processed_node)
+        
+        print(f"\n测试完成，有效节点数量: {len(valid_nodes)}")
+    else:
+        print(f"\n跳过节点测试（无核心程序），将使用所有节点")
+        valid_nodes = all_nodes
     
     # 收集所有有效节点的URI
     valid_uris = []
     valid_uri_count = 0
     for node in valid_nodes:
-            uri = node_to_v2ray_uri(node)
-            if uri:
-                valid_uris.append(uri)
-                valid_uri_count += 1
+        uri = node_to_v2ray_uri(node)
+        if uri:
+            valid_uris.append(uri)
+            valid_uri_count += 1
     
     # 新增：保存所有去重合并后的节点到all.txt（原始格式）
     try:
-        print(f"准备写入 all.txt，当前工作目录: {os.getcwd()}")
+        print(f"\n准备写入 all.txt，当前工作目录: {os.getcwd()}")
         all_uris = []
         for node in all_nodes:
             uri = node_to_v2ray_uri(node)
             if uri:
                 all_uris.append(uri)
-        with open('all.txt', 'w', encoding='utf-8') as f:
-            f.write('\n'.join(all_uris))
-        print(f"\n已将所有去重合并后的节点保存到 all.txt 文件")
+        
+        if all_uris:
+            with open('all.txt', 'w', encoding='utf-8') as f:
+                f.write('\n'.join(all_uris))
+            print(f"✅ 已将所有去重合并后的节点保存到 all.txt 文件 (共{len(all_uris)}个节点)")
+        else:
+            print("⚠️ 没有找到任何节点，创建空的all.txt文件")
+            with open('all.txt', 'w', encoding='utf-8') as f:
+                f.write('# 暂无可用节点\n')
     except Exception as e:
-        print(f"保存all.txt失败: {e}")
+        print(f"❌ 保存all.txt失败: {e}")
         print("请检查GitHub Actions是否有写入权限，或 workflow 是否将 all.txt 文件 git add 并提交。")
     
     # 将所有URI合并为一个字符串，并进行base64编码
+    print(f"\n准备生成文件，有效节点数量: {valid_uri_count}")
     if valid_uri_count > 0:
         uri_content = '\n'.join(valid_uris)
         base64_content = base64.b64encode(uri_content.encode('utf-8')).decode('utf-8')
         
         # 将base64编码后的内容写入文件
-        with open('v2ray.txt', 'w', encoding='utf-8') as f:
-            f.write(base64_content)
-        
-        print(f"\n已将 {valid_uri_count} 个有效节点以base64编码保存到 v2ray.txt 文件")
+        try:
+            with open('v2ray.txt', 'w', encoding='utf-8') as f:
+                f.write(base64_content)
+            print(f"✅ 已将 {valid_uri_count} 个有效节点以base64编码保存到 v2ray.txt 文件")
+        except Exception as e:
+            print(f"❌ 保存v2ray.txt失败: {e}")
         
         # 同时保存一个原始文本版本，方便查看
-        with open('v2ray_raw.txt', 'w', encoding='utf-8') as f:
-            f.write(uri_content)
-        print(f"同时保存了原始文本版本到 v2ray_raw.txt 文件")
+        try:
+            with open('v2ray_raw.txt', 'w', encoding='utf-8') as f:
+                f.write(uri_content)
+            print(f"✅ 同时保存了原始文本版本到 v2ray_raw.txt 文件")
+        except Exception as e:
+            print(f"❌ 保存v2ray_raw.txt失败: {e}")
     else:
-        print("\n未找到有效节点，不生成文件")
+        print("\n⚠️ 未找到有效节点，但仍会生成all.txt文件")
+        # 即使没有有效节点，也生成空的v2ray.txt文件
+        try:
+            with open('v2ray.txt', 'w', encoding='utf-8') as f:
+                f.write('# 暂无可用节点\n')
+            print("✅ 已生成空的v2ray.txt文件")
+        except Exception as e:
+            print(f"❌ 生成空v2ray.txt失败: {e}")
+        
+        try:
+            with open('v2ray_raw.txt', 'w', encoding='utf-8') as f:
+                f.write('# 暂无可用节点\n')
+            print("✅ 已生成空的v2ray_raw.txt文件")
+        except Exception as e:
+            print(f"❌ 生成空v2ray_raw.txt失败: {e}")
 
 if __name__ == '__main__':
     main()
