@@ -18,6 +18,7 @@ jobs:
           # 转到 Settings > Secrets and variables > Actions
           # 点击 New repository secret，添加 Secret，名称为 BOT，输入你的token
           token: ${{ secrets.BOT }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -36,11 +37,29 @@ jobs:
           set +e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add v2ray.txt all.txt v2ray_raw.txt
-          git commit -m "update" || echo "No changes to commit"
-          git pull --rebase
-          if [ $? -ne 0 ]; then
-            git rebase --abort
-            echo "rebase failed, will force push"
+          
+          # 检查是否有文件变更
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
           fi
-          git push --force https://${{ secrets.BOT }}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git
+          
+          git add v2ray.txt all.txt v2ray_raw.txt
+          git commit -m "update $(date '+%Y-%m-%d %H:%M:%S')"
+          
+          # 尝试正常推送
+          if git push origin HEAD:master; then
+            echo "Successfully pushed to master"
+          else
+            echo "Normal push failed, trying rebase..."
+            git pull --rebase origin master
+            if [ $? -eq 0 ]; then
+              git push origin HEAD:master
+              echo "Successfully pushed after rebase"
+            else
+              echo "Rebase failed, aborting..."
+              git rebase --abort
+              echo "Please check repository permissions and token settings"
+              exit 1
+            fi
+          fi
