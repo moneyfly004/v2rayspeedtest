@@ -367,24 +367,142 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTRmNzYxMy1kOTRmLTRkMmYtODIzMC02N2EyZWNlNTV
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTRmNzYxMy1kOTRmLTRkMmYtODIzMC02N2EyZWNlNTVmOTc=@zf-ct.bgblwow.org:52707#🇯🇵 日本 X A区-1A
 trojan://bcfaadbe-bfaa-431d-b6de-8a3dc328f29b@n001.xunxunmimisbs.sbs:57000?sni=🇦🇪 迪拜01
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYjlmZDViZS0yMmUwLTQ4NjItODY1MS0wYzc3ODFmYmQ4M2I=@ldu.izenny.com:46197#🇺🇸 SS 美国1
-ss://YWVzLTI1Ni1nY206RnhWMnM0NmdrNmdCZzRmdg==@c26s1.portablesubmarines.com:19138#JMS-849673@c26s1.portablesubmarines.com:19138 [189ms]
-ss://YWVzLTI1Ni1nY206RnhWMnM0NmdrNmdCZzRmdg==@c26s2.portablesubmarines.com:19138#JMS-849673@c26s2.portablesubmarines.com:19138 [145ms]
-vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzMy5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IFsxMjltc10iLCAiYWRkIjogImMyNnMzLnBvcnRhYmxlc3VibWFyaW5lcy5jb20iLCAicG9ydCI6ICIxOTEzOCIsICJpZCI6ICJiZGMyZGMyZC03MzIzLTQ2ZTktOGE5Yy04ZTdkNTIxZjhiNDMiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzNC5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IFszOTltc10iLCAiYWRkIjogImMyNnM0LnBvcnRhYmxlc3VibWFyaW5lcy5jb20iLCAicG9ydCI6ICIxOTEzOCIsICJpZCI6ICJiZGMyZGMyZC03MzIzLTQ2ZTktOGE5Yy04ZTdkNTIxZjhiNDMiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzNS5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IFsyNTRtc10iLCAiYWRkIjogImMyNnM1LnBvcnRhYmxlc3VibWFyaW5lcy5jb20iLCAicG9ydCI6ICIxOTEzOCIsICJpZCI6ICJiZGMyZGMyZC03MzIzLTQ2ZTktOGE5Yy04ZTdkNTIxZjhiNDMiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzODAxLnBvcnRhYmxlc3VibWFyaW5lcy5jb206MTkxMzggWzQyNW1zXSIsICJhZGQiOiAiYzI2czgwMS5wb3J0YWJsZXN1Ym1hcmluZXMuY29tIiwgInBvcnQiOiAiMTkxMzgiLCAiaWQiOiAiYmRjMmRjMmQtNzMyMy00NmU5LThhOWMtOGU3ZDUyMWY4YjQzIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
-vless://6616b041-502d-4476-88a8-254e683c82e4@104.21.33.216:443?security=tls&type=ws&remarks=joss.krikkrik.xyz
-vless://8d6d33b5-8d0d-41c3-9f3d-9b5aac43d4c9@172.67.192.215:443?security=tls&type=ws&remarks=joss.krikkrik.xyz
-vless://Parsashonam-Bot-31@104.17.147.22:8880?type=ws&remarks=美国01
-vless://b5404b15-65da-4a71-8946-fdbc328e1bbd@vcheat.sbs:10808?type=tcp&remarks=www.cloudflare.com
-vless://TELEGRAM-ID-soalvajavaab@www.infe.com.br.infe.com.br:2054?security=tls&type=ws&remarks=www.infe.com.br.infe.com.br [1198ms]
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#🇸🇬新加坡1 | ⬇️ 2.1MB/s
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.45:38388#🌀其他3-VN | ⬇️ 1.2MB/s
-hysteria://dongtaiwang.com@195.154.200.40:15010&peer=apple.com
-hysteria://dongtaiwang.com@51.159.226.1:49003?protocol=udp&peer=apple.com
-hysteria://dongtaiwang.com@208.87.243.151:38845?protocol=udp&peer=www.bing.com
-hysteria://dongtaiwang.com@62.210.127.217:50011&peer=美国02
-hysteria://dongtaiwang.com@62.210.127.217:35511?protocol=udp&peer=apple.com
+ss://YWVzLTI1Ni1nY206RnhWMnM0NmdrNmdCZzRmdg==@c26s1.portablesubmarines.com:19138#JMS-849673@c26s1.portablesubmarines.com:19138 [196ms]
+ss://YWVzLTI1Ni1nY206RnhWMnM0NmdrNmdCZzRmdg==@c26s2.portablesubmarines.com:19138#JMS-849673@c26s2.portablesubmarines.com:19138 [156ms]
+vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzMy5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IFsyMDdtc10iLCAiYWRkIjogImMyNnMzLnBvcnRhYmxlc3VibWFyaW5lcy5jb20iLCAicG9ydCI6ICIxOTEzOCIsICJpZCI6ICJiZGMyZGMyZC03MzIzLTQ2ZTktOGE5Yy04ZTdkNTIxZjhiNDMiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzNC5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IFs0MjNtc10iLCAiYWRkIjogImMyNnM0LnBvcnRhYmxlc3VibWFyaW5lcy5jb20iLCAicG9ydCI6ICIxOTEzOCIsICJpZCI6ICJiZGMyZGMyZC03MzIzLTQ2ZTktOGE5Yy04ZTdkNTIxZjhiNDMiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzNS5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IFsxOTNtc10iLCAiYWRkIjogImMyNnM1LnBvcnRhYmxlc3VibWFyaW5lcy5jb20iLCAicG9ydCI6ICIxOTEzOCIsICJpZCI6ICJiZGMyZGMyZC03MzIzLTQ2ZTktOGE5Yy04ZTdkNTIxZjhiNDMiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzODAxLnBvcnRhYmxlc3VibWFyaW5lcy5jb206MTkxMzggWzQ1M21zXSIsICJhZGQiOiAiYzI2czgwMS5wb3J0YWJsZXN1Ym1hcmluZXMuY29tIiwgInBvcnQiOiAiMTkxMzgiLCAiaWQiOiAiYmRjMmRjMmQtNzMyMy00NmU5LThhOWMtOGU3ZDUyMWY4YjQzIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
+trojan://fa24e1f0-c53e-4d86-b56c-4dbf535ceb75@hk102.foxfree.xyz:32001?sni=hk102.foxfree.xyz
+trojan://YeWZlgiZ@36.156.102.74:3379?sni=美国01
+trojan://YeWZlgiZ@36.156.102.115:27135?sni=美国02
+trojan://YeWZlgiZ@36.151.251.18:1235?sni=美国03
+trojan://YeWZlgiZ@36.151.251.18:88?sni=美国04
+trojan://YeWZlgiZ@36.151.195.112:1957?sni=美国05
+trojan://YeWZlgiZ@36.156.102.74:30548?sni=美国06
+trojan://YeWZlgiZ@36.156.102.74:47050?sni=美国07
+trojan://YeWZlgiZ@36.151.251.18:13638?sni=美国08
+trojan://YeWZlgiZ@36.151.251.18:1068?sni=美国09
+trojan://YeWZlgiZ@36.156.102.72:3052?sni=美国10
+trojan://YeWZlgiZ@42.3.3.90:443?sni=美国11
+trojan://YeWZlgiZ@36.156.102.72:12076?sni=美国12
+trojan://YeWZlgiZ@58.152.26.153:443?sni=美国13
+trojan://YeWZlgiZ@58.152.53.206:443?sni=美国14
+trojan://YeWZlgiZ@36.156.102.115:38185?sni=美国15
+trojan://YeWZlgiZ@36.156.102.115:2258?sni=美国16
+trojan://YeWZlgiZ@36.156.102.115:24306?sni=美国17
+trojan://YeWZlgiZ@36.156.102.74:23668?sni=美国18
+trojan://YeWZlgiZ@36.156.102.74:22209?sni=美国19
+trojan://YeWZlgiZ@36.156.102.74:23762?sni=美国20
+trojan://YeWZlgiZ@36.151.251.18:25698?sni=美国21
+trojan://YeWZlgiZ@36.151.251.23:33681?sni=美国22
+trojan://YeWZlgiZ@36.156.102.69:194?sni=美国23
+trojan://YeWZlgiZ@hkd.avxqx.cn:443?sni=美国24
+trojan://YeWZlgiZ@36.151.251.18:21829?sni=美国25
+trojan://YeWZlgiZ@36.151.251.18:811?sni=美国26
+trojan://YeWZlgiZ@36.151.251.23:21454?sni=美国27
+trojan://R3voFfZoYnFYVRBLnH@de-3.topeinstein.com:443?sni=美国28 [381ms]
+trojan://R3voFfZoYnFYVRBLnH@nl-3.concert-geb.com:443?sni=美国29 [310ms]
+trojan://R3voFfZoYnFYVRBLnH@ee-1.kamediorg.com:443?sni=美国30 [546ms]
+trojan://R3voFfZoYnFYVRBLnH@uk-1.fishchipsexpress.com:443?sni=美国31 [355ms]
+trojan://R3voFfZoYnFYVRBLnH@au-1.australiastudio.com:443?sni=美国32 [689ms]
+trojan://R3voFfZoYnFYVRBLnH@tw-1.chianginc.com:443?sni=美国33 [1012ms]
+trojan://R3voFfZoYnFYVRBLnH@iplc-hk-1.trojanwheel.com:7001?sni=美国34
+trojan://R3voFfZoYnFYVRBLnH@iplc-hk-2.trojanwheel.com:8001?sni=美国35
+trojan://R3voFfZoYnFYVRBLnH@iplc-hk-3.trojanwheel.com:7002?sni=美国36
+trojan://R3voFfZoYnFYVRBLnH@iplc-hk-4.trojanwheel.com:8002?sni=美国37
+trojan://R3voFfZoYnFYVRBLnH@iplc-hk-5.trojanwheel.com:7003?sni=美国38
+trojan://R3voFfZoYnFYVRBLnH@iplc-hk-6.trojanwheel.com:8003?sni=美国39
+trojan://R3voFfZoYnFYVRBLnH@fw-hk-v6-1.trojanwheel.com:5001?sni=美国40
+trojan://R3voFfZoYnFYVRBLnH@fw-hk-v6-2.trojanwheel.com:5002?sni=美国41
+trojan://R3voFfZoYnFYVRBLnH@fw-hk-v6-3.trojanwheel.com:5003?sni=美国42
+trojan://R3voFfZoYnFYVRBLnH@fw-hk-v6-4.trojanwheel.com:5004?sni=美国43
+trojan://R3voFfZoYnFYVRBLnH@fw-jp-test1.trojanwheel.com:5011?sni=美国44
+trojan://R3voFfZoYnFYVRBLnH@fw-jp-test2.trojanwheel.com:5012?sni=美国45
+trojan://R3voFfZoYnFYVRBLnH@fw-jp1.rise-fuji.com:5011?sni=美国46
+trojan://R3voFfZoYnFYVRBLnH@fw-jp2.rise-fuji.com:5012?sni=美国47
+trojan://R3voFfZoYnFYVRBLnH@fw-us1.regentgrandvalley.com:5021?sni=美国48
+trojan://R3voFfZoYnFYVRBLnH@fw-us2.regentgrandvalley.com:5022?sni=美国49
+trojan://R3voFfZoYnFYVRBLnH@fw-us3.regentgrandvalley.com:5023?sni=美国50
+trojan://R3voFfZoYnFYVRBLnH@fw-us4.regentgrandvalley.com:5023?sni=美国51
+trojan://R3voFfZoYnFYVRBLnH@fw-au1.australiastudio.com:5042?sni=美国52
+trojan://R3voFfZoYnFYVRBLnH@fw-au2.australiastudio.com:5043?sni=美国53
+trojan://R3voFfZoYnFYVRBLnH@fw-au3.australiastudio.com:5044?sni=美国54
+trojan://R3voFfZoYnFYVRBLnH@fw-uk1.fishchipsexpress.com:5031?sni=美国55
+trojan://R3voFfZoYnFYVRBLnH@fw-sg1.victoriamitrepeak.com:5016?sni=美国56
+trojan://R3voFfZoYnFYVRBLnH@au-2.australiastudio.com:443?sni=美国57 [606ms]
+trojan://R3voFfZoYnFYVRBLnH@au-3.australiastudio.com:443?sni=美国58 [618ms]
+trojan://R3voFfZoYnFYVRBLnH@au-4.australiastudio.com:443?sni=美国59 [623ms]
+trojan://R3voFfZoYnFYVRBLnH@de-2.topeinstein.com:443?sni=美国60
+trojan://R3voFfZoYnFYVRBLnH@us-1.regentgrandvalley.com:443?sni=美国61
+trojan://R3voFfZoYnFYVRBLnH@us-2.regentgrandvalley.com:443?sni=美国62
+trojan://R3voFfZoYnFYVRBLnH@us-3.regentgrandvalley.com:443?sni=美国63 [248ms]
+trojan://R3voFfZoYnFYVRBLnH@hk-1.victoriamitrepeak.com:465?sni=美国64 [724ms]
+trojan://R3voFfZoYnFYVRBLnH@hk-2.victoriamitrepeak.com:465?sni=美国65 [724ms]
+trojan://R3voFfZoYnFYVRBLnH@sg-1.victoriamitrepeak.com:443?sni=美国66 [699ms]
+trojan://R3voFfZoYnFYVRBLnH@sg-2.victoriamitrepeak.com:443?sni=美国67 [768ms]
+trojan://R3voFfZoYnFYVRBLnH@ty-1.rise-fuji.com:443?sni=美国68 [553ms]
+trojan://R3voFfZoYnFYVRBLnH@ty-2.rise-fuji.com:443?sni=美国69
+trojan://R3voFfZoYnFYVRBLnH@ty-3.rise-fuji.com:443?sni=美国70 [543ms]
+trojan://R3voFfZoYnFYVRBLnH@ty-4.rise-fuji.com:443?sni=美国71 [642ms]
+trojan://R3voFfZoYnFYVRBLnH@os-1.rise-fuji.com:443?sni=美国72 [545ms]
+trojan://R3voFfZoYnFYVRBLnH@os-2.rise-fuji.com:443?sni=美国73 [4018ms]
+trojan://R3voFfZoYnFYVRBLnH@os-3.rise-fuji.com:443?sni=美国74 [566ms]
+trojan://R3voFfZoYnFYVRBLnH@nl-1.concert-geb.com:443?sni=美国75 [313ms]
+trojan://R3voFfZoYnFYVRBLnH@nl-2.concert-geb.com:443?sni=美国76 [322ms]
+trojan://R3voFfZoYnFYVRBLnH@tw-2.chianginc.com:443?sni=美国77
+trojan://R3voFfZoYnFYVRBLnH@v6-us3.nigirocloud.com:4003?sni=美国78
+trojan://R3voFfZoYnFYVRBLnH@v6-nl1.nigirocloud.com:4003?sni=美国79
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.209.76.208:443?type=tcp&remarks=github.githubassets.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.208.53.56:443?type=tcp&remarks=evt.ilovepdf.com
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@47.245.101.23:443?type=tcp&remarks=api.digital-help-prd.autodesk.com
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.218.89.132:443?type=tcp&remarks=api.digital-help-prd.autodesk.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@172.234.102.246:443?type=tcp&remarks=github.githubassets.com
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.219.13.117:443?type=tcp&remarks=prod.adobeccstatic.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.254.207.127:443?type=tcp&remarks=cdn.userway.org
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@38.180.243.37:443?type=tcp&remarks=www.starwars.com
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@47.76.214.7:443?type=tcp&remarks=cdn.userway.org
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.83.175.231:443?type=tcp&remarks=cdn.userway.org
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@103.140.136.6:443?type=tcp&remarks=cdn77.api.userway.org
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.220.217.191:443?type=tcp&remarks=cdn-dynmedia-1.microsoft.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.213.196.81:443?type=tcp&remarks=cdn77.api.userway.org
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@65.20.74.132:443?type=tcp&remarks=bh.contextweb.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@154.205.156.52:443?type=tcp&remarks=github.githubassets.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@147.45.51.160:443?type=tcp&remarks=api.company-target.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@160.187.111.222:443?type=tcp&remarks=images-na.ssl-images-amazon.com
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.210.110.21:443?type=tcp&remarks=prod.adobeccstatic.com
+vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.210.199.129:443?type=tcp&remarks=wcs.adobe.com
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@171.22.16.161:443?type=tcp&remarks=www.starwars.com
+vless://c64b204c-f0fb-4416-9538-9e8fb18ce060@34.97.96.38:38622?type=tcp&remarks=美国80
+vless://925db823-26aa-44e6-b9de-971435694d51@35.201.217.242:43549?type=tcp&remarks=美国81
+vless://17dcc809-12a0-4535-d6c5-d8053583da3c@34.124.148.16:46391?type=tcp&remarks=美国82
+vless://fa24e1f0-c53e-4d86-b56c-4dbf535ceb75@hk103.foxfree.xyz:32002?flow=xtls-rprx-vision&type=tcp&remarks=www.cloudflare.com
+vless://fa24e1f0-c53e-4d86-b56c-4dbf535ceb75@us023.foxfree.xyz:25070?flow=xtls-rprx-vision&type=tcp&remarks=www.cloudflare.com
+vless://@yxv0bzpkzji0nwjmoc04mjuzltqwmjktotbkoc1lzjmwy2zhyzc1zjfamtgzlji0mc4xodcumty5ojexndqz:443?type=tcp&remarks=白马vpn香港🇭🇰1
+vless://@yxv0bzo4zjrmmwu1zc0yyzzmltrimmmtyjrkmy0xmmnhytc3y2y2ytdamtgzlji0mc4ynduumje1ojm0ndm:443?type=tcp&remarks=白马vpn香港🇭🇰2
+vless://@yxv0bzpkzji0nwjmoc04mjuzltqwmjktotbkoc1lzjmwy2zhyzc1zjramtgzlji0mc4xnzkuodg6mte0ndm:443?type=tcp&remarks=白马vpn日本🇯🇵
+vless://@yxv0bzpkzji0nwjmoc04mjuzltqwmjktotbkoc1lzjmwy2zhyzc1zjfamtgzlji0mc4ynduumje1ojiymdaw:443?type=tcp&remarks=白马vpn美国🇺🇸3
+vless://@yxv0bzpknjvjyze0yy1mntnmltrmztityji2mi05nzg1njywmtmxownaodcumji5ljewoc4xnjc6ntq0mw:443?type=tcp&remarks=Netherlands//////supervpn提取
+vless://@yxv0bzpknjvjyze0yy1mntnmltrmztityji2mi05nzg1njywmtmxownaodcumji5ljk3ljewmzo1ndqz:443?type=tcp&remarks=Germany////supervpn提取
+ss://YWVzLTI1Ni1nY206NDk3ODQ1ZTE2ZTM4@sing01v1.ling8vote004.com:443#百兆·新服专线v1
+ss://YWVzLTI1Ni1nY206NWVkZjkxZjhjMjk1@jpz001v1.ling8vote004.com:443#百兆·柬服专线v1
+ss://YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ==@45.140.169.26:9012#NewYork PAC [323ms]
+ss://YWVzLTI1Ni1nY206ZDJ1bVZhZFBUMW0=@194.87.10.161:8388#Singapore
+ss://YWVzLTI1Ni1nY206QQ==@185.141.219.30:8388#Japan
+ss://YWVzLTI1Ni1nY206cThiVnRBSnhYU1gx@212.192.13.239:8388#HongKong
+ss://YWVzLTI1Ni1nY206YzVmY2RmNzgyOTExMmNiNA==@185.22.154.251:10081#Taiwan [314ms]
+ss://YWVzLTI1Ni1nY206NDE5NGNlNWIxZjM2ZjY2MA==@45.129.2.145:10081#France
+ss://YWVzLTI1Ni1nY206ZDk4OWZmM2Q0NmE2M2Y2Mw==@185.22.154.86:10081#Thailand [310ms]
+ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ==@195.58.49.100:8011#Montreal [286ms]
+ss://YWVzLTI1Ni1nY206NjNkN2MxNzUwNmQxZjQ4Yg==@203.32.26.157:10912#South Korea [736ms]
+ss://YWVzLTI1Ni1nY206ZjM0NTc5ZDAxNDhiMjU4MQ==@185.22.154.19:10081#British [303ms]
+ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ==@212.192.15.59:30398#HongKong [444ms]
+ss://YWVzLTI1Ni1nY206OWNhMjgwM2MxNmRlNzJjZA==@45.135.135.89:10081#Russia [303ms]
+ss://YWVzLTI1Ni1nY206MDY5MDY1OTc0Njk4MGM0Ng==@103.115.18.36:10081#Japan [520ms]
+ss://YWVzLTI1Ni1nY206U2xRdy9ZTm5QWEhtWjhiKw==@192.124.176.179:8388#🚀新加坡
+ss://YWVzLTI1Ni1nY206NFlHRzJDM2FRS3FVMy9oMg==@45.144.174.88:8388#🚀香港
+ss://YWVzLTI1Ni1nY206MDE3YzczODRmYzk5NjM4ZA==@167.17.183.59:10081#🚀韩国
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3cjNJTEo3MHpPRXRDdEtvb3pWWXpRPT0=@82.180.130.113:10089#🇯🇵 JP-Shadowsocks小火箭vpn [193ms]
 trojan://326cce76-68e5-4d78-a3bc-7f054bb98393@xiaozhu1.kkieo555.cn:49213?sni=douyin.com
 trojan://7da1c0af-a746-4e6b-b579-35fda6c02c65@xiaozhu1.kkieo555.cn:41273?sni=douyin.com
 trojan://d0cb897a-ac40-46a4-986c-69bc19fea95b@xiaozhu1.kkieo555.cn:41274?sni=douyin.com
@@ -392,23 +510,23 @@ trojan://6a9f04bb-d33f-4ba1-9132-7452d0b0e0e7@xiaozhu1.kkieo555.cn:41275?sni=dou
 trojan://5713b03f-a916-4a9f-a98c-2d49534c95fe@xiaozhu1.kkieo555.cn:41277?sni=douyin.com
 trojan://2ef8122d-bf93-4ccb-a016-623a6bcaabdf@xiaozhu1.kkieo555.cn:30210?sni=douyin.com
 trojan://bb332e34-89a7-4dba-adb5-010a4cd016b1@xiaozhu1.kkieo555.cn:49214?sni=douyin.com
-ss://YWVzLTEyOC1nY206MzgzMmQxMTktMmYxOC00ODhiLWFiOGQtYWRiY2ZhODhjMGVm@sg.fasthou.icu:33112#每日连接前点更新订阅 [643ms]
-ss://YWVzLTEyOC1nY206MzgzMmQxMTktMmYxOC00ODhiLWFiOGQtYWRiY2ZhODhjMGVm@sg.fasthou.icu:33115#点“转盘”图标可更新 [758ms]
-ss://YWVzLTEyOC1nY206NjlmY2QyOWEtOTQwZi00NTA3LTljZWMtYjZmMWZlZGFkMDJl@sg.fasthou.icu:33111#🇭🇰 香港HK01-专线中继 [632ms]
+ss://YWVzLTEyOC1nY206MzgzMmQxMTktMmYxOC00ODhiLWFiOGQtYWRiY2ZhODhjMGVm@sg.fasthou.icu:33112#每日连接前点更新订阅 [720ms]
+ss://YWVzLTEyOC1nY206MzgzMmQxMTktMmYxOC00ODhiLWFiOGQtYWRiY2ZhODhjMGVm@sg.fasthou.icu:33115#点“转盘”图标可更新 [634ms]
+ss://YWVzLTEyOC1nY206NjlmY2QyOWEtOTQwZi00NTA3LTljZWMtYjZmMWZlZGFkMDJl@sg.fasthou.icu:33111#🇭🇰 香港HK01-专线中继 [491ms]
 ss://YWVzLTEyOC1nY206ZTM5NzliMzAtYWFlOC00ZDQ1LWJkNmUtZjBjMWY4ZTZjNDUx@bmde.bcymanuscript.top:48303#日本丨解GPT
-ss://YWVzLTEyOC1nY206MTg4MzUzNjUtNmNiYy00NDY3LThkOTQtMjhmMGUwYTc2ZDI1@sg.fasthou.icu:33119#🇺🇸 美国US01-专线中继 [851ms]
+ss://YWVzLTEyOC1nY206MTg4MzUzNjUtNmNiYy00NDY3LThkOTQtMjhmMGUwYTc2ZDI1@sg.fasthou.icu:33119#🇺🇸 美国US01-专线中继 [755ms]
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NGYxMzk2NC1hODRiLTRjMzMtYTMyOS1mY2U5MjE3MDFmYWU=@swk1.lieerr222.cn:39693#日本1
-ss://YWVzLTEyOC1nY206OTQ4ODM4NDQtMDJlNy00OWFjLTkyMzAtMzViNTk3NDc4MTlk@sg.fasthou.icu:33117#🇸🇬 新加坡SG01-专线中继 [615ms]
-ss://YWVzLTEyOC1nY206Y2RiYTAwZjYtMmNkMi00MDEwLWFhNjktNjZlMDY1YWZhZDlh@sg.fasthou.icu:33120#🇺🇸 美国US02-专线中继 [860ms]
+ss://YWVzLTEyOC1nY206OTQ4ODM4NDQtMDJlNy00OWFjLTkyMzAtMzViNTk3NDc4MTlk@sg.fasthou.icu:33117#🇸🇬 新加坡SG01-专线中继 [713ms]
+ss://YWVzLTEyOC1nY206Y2RiYTAwZjYtMmNkMi00MDEwLWFhNjktNjZlMDY1YWZhZDlh@sg.fasthou.icu:33120#🇺🇸 美国US02-专线中继 [995ms]
 ss://YWVzLTEyOC1nY206ZDA5MWUzOTctMDRmYi00ZDhjLWEwMzAtM2I3MTg2ODNjZWQz@bmde.bcymanuscript.top:48304#新加坡丨解GPT
 ss://YWVzLTEyOC1nY206NDZjMDc2MGItNGU4Mi00YjgwLWE3ODItOTk5ZjNmNDdkNmE1@bmde.bcymanuscript.top:48308#台湾丨解GPT
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMzZmOWE2Ny02MzZkLTRjODMtOGI4MC1lZjQzNjA3ZGNmYjQ=@swk1.lieerr222.cn:39691#香港2
 ss://YWVzLTEyOC1nY206MWFkNTZjMGUtZGJkZi00YmI4LWJlYjYtYzRmODI1MGIzM2Ni@bmde.bcymanuscript.top:48315#日本解锁GPT
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTAwYzQ3Ny03MTFmLTQxYzAtOGIxOS1mYWNhZGQ3NTJhMTQ=@swk1.lieerr222.cn:39694#日本2
-ss://YWVzLTEyOC1nY206MTgyMDZlZjEtYjllYy00N2Q1LThiYzctZjQ2ODM2ZmNkNjli@sg.fasthou.icu:33113#🇹🇼 台湾TW01-专线中继 [439ms]
-ss://YWVzLTEyOC1nY206YjkxMmJjYTEtZjAwMS00YjQ4LTlhMDEtZTgyYmIxODEzNTVh@sg.fasthou.icu:33116#🇯🇵 日本JP02-专线中继 [504ms]
-ss://YWVzLTEyOC1nY206ZmUzZmEyNGItYjRhYy00M2ZkLWIxOGYtZDc5MjE1NDgzY2Y1@sg.fasthou.icu:33118#🇸🇬 新加坡SG02-专线中继 [472ms]
-ss://YWVzLTEyOC1nY206NmZmZDNlZGEtYWE4ZS00ZWZhLWJkZDItNTM0YmNmYTllYTZk@sg.fasthou.icu:33122#🇲🇾 狮城01-专线中继 [843ms]
+ss://YWVzLTEyOC1nY206MTgyMDZlZjEtYjllYy00N2Q1LThiYzctZjQ2ODM2ZmNkNjli@sg.fasthou.icu:33113#🇹🇼 台湾TW01-专线中继 [550ms]
+ss://YWVzLTEyOC1nY206YjkxMmJjYTEtZjAwMS00YjQ4LTlhMDEtZTgyYmIxODEzNTVh@sg.fasthou.icu:33116#🇯🇵 日本JP02-专线中继 [544ms]
+ss://YWVzLTEyOC1nY206ZmUzZmEyNGItYjRhYy00M2ZkLWIxOGYtZDc5MjE1NDgzY2Y1@sg.fasthou.icu:33118#🇸🇬 新加坡SG02-专线中继 [501ms]
+ss://YWVzLTEyOC1nY206NmZmZDNlZGEtYWE4ZS00ZWZhLWJkZDItNTM0YmNmYTllYTZk@sg.fasthou.icu:33122#🇲🇾 狮城01-专线中继 [625ms]
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU1M2YwXHU2ZTdlXHU0ZTI4XHU4OWUzR1BUIiwgImFkZCI6ICJsYWVnLmhzeW1hbnVzY3JpcHQudG9wIiwgInBvcnQiOiAiMTk1MDIiLCAiaWQiOiAiYmY3OWIwYTQtZDU0ZS00MjUxLWI5YTAtOTk0ZTgxYmRmNTA3IiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU5OTk5XHU2ZTJmIDAxXHUzMDEwSUVQTFx1MzAxMSIsICJhZGQiOiAibGFlZy5oc3ltYW51c2NyaXB0LnRvcCIsICJwb3J0IjogIjE5NTAxIiwgImlkIjogIjk1MGIxZGY4LTNmYzMtNDdmZS1hMjVhLTBkZTg1ZDY0NjVkNCIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAidm1lc3MiLCAidGxzIjogIiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU2NWU1XHU2NzJjXHU0ZTI4XHU4OWUzR1BUIiwgImFkZCI6ICJsYWVnLmhzeW1hbnVzY3JpcHQudG9wIiwgInBvcnQiOiAiMTk1MDMiLCAiaWQiOiAiNDBjM2Y4NjMtNTFhNC00OGY2LThhMTYtNTEwOGU5MzM3YThmIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
@@ -426,10 +544,10 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU5OTk5XHU2ZTJmWVRCIiwgImFkZCI6ICI5LndvZ2cxLnRv
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU5N2U5XHU1NmZkR1BUMSIsICJhZGQiOiAiMTUud29nZzEudG9wIiwgInBvcnQiOiAiMTEyMTUiLCAiaWQiOiAiMDVjNTBjYTItNGJkMS0zZjY1LWI0Y2YtMjBmOTAwZmY3NmJmIiwgImFpZCI6ICIyIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU5N2U5XHU1NmZkR1BUMiIsICJhZGQiOiAiMTQud29nZzEudG9wIiwgInBvcnQiOiAiMTEyMTQiLCAiaWQiOiAiMDVjNTBjYTItNGJkMS0zZjY1LWI0Y2YtMjBmOTAwZmY3NmJmIiwgImFpZCI6ICIyIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU1M2YwXHU2ZTdlMDEgXHU5NmE3XHU5MDUzIDEuNXgiLCAiYWRkIjogInB1Yi5hcDIwMjUwOTA5Lnh5eiIsICJwb3J0IjogIjY0MDE4IiwgImlkIjogIjc0YTRlZWMyLTk5MzctMzliYi1iZmZjLWJlYzk1ZWM1N2FmMiIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAidm1lc3MiLCAidGxzIjogIiJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU2NWU1XHU2NzJjQSBcdTk2YTdcdTkwNTMgMS42eCBbMjkxbXNdIiwgImFkZCI6ICJwdWIuYXAyMDI1MDkwOS54eXoiLCAicG9ydCI6ICI2NDAxMSIsICJpZCI6ICI3NGE0ZWVjMi05OTM3LTM5YmItYmZmYy1iZWM5NWVjNTdhZjIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU2NWU1XHU2NzJjQSBcdTk2YTdcdTkwNTMgMS42eCBbNDUxbXNdIiwgImFkZCI6ICJwdWIuYXAyMDI1MDkwOS54eXoiLCAicG9ydCI6ICI2NDAxMSIsICJpZCI6ICI3NGE0ZWVjMi05OTM3LTM5YmItYmZmYy1iZWM5NWVjNTdhZjIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU5OTk5XHU2ZTJmQSBcdTk2YTdcdTkwNTMgMS42eCIsICJhZGQiOiAicHViLmFwMjAyNTA5MDkueHl6IiwgInBvcnQiOiAiNjQwOTkiLCAiaWQiOiAiNzRhNGVlYzItOTkzNy0zOWJiLWJmZmMtYmVjOTVlYzU3YWYyIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiVjItXHU5OTk5XHU2ZTJmRkRDMDEgXHU5NmE3XHU5MDUzIDJ4IiwgImFkZCI6ICJwdWIuYXAyMDI1MDkwOS54eXoiLCAicG9ydCI6ICI2NDA5MCIsICJpZCI6ICI3NGE0ZWVjMi05OTM3LTM5YmItYmZmYy1iZWM5NWVjNTdhZjIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU3ZjhlXHU1NmZkMDEgXHU5NmE3XHU5MDUzIDEuNXggWzYxMm1zXSIsICJhZGQiOiAicHViLmFwMjAyNTA5MDkueHl6IiwgInBvcnQiOiAiNjQwMTQiLCAiaWQiOiAiNzRhNGVlYzItOTkzNy0zOWJiLWJmZmMtYmVjOTVlYzU3YWYyIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU2NWU1XHU2NzJjOTggQ0ROXHU5NmE3XHU5MDUzIDN4IiwgImFkZCI6ICJwdWIuYXAyMDI1MDkwOS54eXoiLCAicG9ydCI6ICI2NDAwNSIsICJpZCI6ICI3NGE0ZWVjMi05OTM3LTM5YmItYmZmYy1iZWM5NWVjNTdhZjIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogInZtZXNzIiwgInRscyI6ICIifQ==
-https://raw.githubusercontent.com:443?remarks=美国03
-https://github.com:443?remarks=美国04
+vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU3ZjhlXHU1NmZkMDEgXHU5NmE3XHU5MDUzIDEuNXggWzY1OW1zXSIsICJhZGQiOiAicHViLmFwMjAyNTA5MDkueHl6IiwgInBvcnQiOiAiNjQwMTQiLCAiaWQiOiAiNzRhNGVlYzItOTkzNy0zOWJiLWJmZmMtYmVjOTVlYzU3YWYyIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiVjEtXHU2NWU1XHU2NzJjOTggQ0ROXHU5NmE3XHU5MDUzIDN4IFszMzJtc10iLCAiYWRkIjogInB1Yi5hcDIwMjUwOTA5Lnh5eiIsICJwb3J0IjogIjY0MDA1IiwgImlkIjogIjc0YTRlZWMyLTk5MzctMzliYi1iZmZjLWJlYzk1ZWM1N2FmMiIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAidm1lc3MiLCAidGxzIjogIiJ9
+https://raw.githubusercontent.com:443?remarks=美国83
+https://github.com:443?remarks=美国84
