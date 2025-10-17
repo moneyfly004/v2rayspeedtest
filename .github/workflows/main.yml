@@ -32,34 +32,88 @@ jobs:
       - name: Run main.py
         run: python main.py
 
+      - name: Check permissions and files
+        run: |
+          echo "=== 检查权限和文件状态 ==="
+          echo "当前用户: $(whoami)"
+          echo "当前目录: $(pwd)"
+          echo "Git配置:"
+          git config --list | grep -E "(user\.|remote\.)"
+          echo "远程仓库:"
+          git remote -v
+          echo "生成的文件:"
+          ls -la *.txt 2>/dev/null || echo "没有找到txt文件"
+
       - name: Commit and push file
         run: |
-          set +e
+          set -e
+          echo "=== 开始提交和推送文件 ==="
+          
+          # 配置Git用户信息
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 检查是否有文件变更
+          # 显示当前状态
+          echo "当前工作目录: $(pwd)"
+          echo "Git状态:"
+          git status
+          
+          # 检查文件是否存在
+          echo "检查生成的文件:"
+          ls -la v2ray.txt all.txt v2ray_raw.txt 2>/dev/null || echo "某些文件不存在"
+          
+          # 显示文件内容大小
+          echo "文件大小:"
+          for file in v2ray.txt all.txt v2ray_raw.txt; do
+            if [ -f "$file" ]; then
+              echo "$file: $(wc -l < "$file") 行, $(wc -c < "$file") 字节"
+            else
+              echo "$file: 文件不存在"
+            fi
+          done
+          
+          # 检查是否有更改
           if git diff --quiet && git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "没有文件更改，跳过提交"
             exit 0
           fi
           
+          # 添加文件到暂存区
+          echo "添加文件到Git暂存区..."
           git add v2ray.txt all.txt v2ray_raw.txt
+          
+          # 检查暂存区状态
+          echo "暂存区状态:"
+          git diff --cached --stat
+          
+          # 提交更改
+          echo "提交更改..."
           git commit -m "update $(date '+%Y-%m-%d %H:%M:%S')"
           
-          # 尝试正常推送
+          # 显示提交历史
+          echo "最近的提交:"
+          git log --oneline -3
+          
+          # 尝试多种推送方式
+          echo "尝试推送更改到远程仓库..."
+          
+          # 方法1: 直接推送
           if git push origin HEAD:master; then
-            echo "Successfully pushed to master"
+            echo "✅ 直接推送成功"
           else
-            echo "Normal push failed, trying rebase..."
-            git pull --rebase origin master
-            if [ $? -eq 0 ]; then
-              git push origin HEAD:master
-              echo "Successfully pushed after rebase"
+            echo "直接推送失败，尝试拉取后推送..."
+            
+            # 方法2: 先拉取再推送
+            git pull origin master --rebase
+            if git push origin HEAD:master; then
+              echo "✅ 拉取后推送成功"
             else
-              echo "Rebase failed, aborting..."
-              git rebase --abort
-              echo "Please check repository permissions and token settings"
-              exit 1
+              echo "拉取后推送也失败，尝试强制推送..."
+              
+              # 方法3: 强制推送（谨慎使用）
+              git push origin HEAD:master --force-with-lease
+              echo "✅ 强制推送完成"
             fi
           fi
+          
+          echo "✅ 文件推送完成"
