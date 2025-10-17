@@ -25,7 +25,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml
 # 订阅链接列表
 links = [
-    "https://raw.githubusercontent.com/DAlxbss/LXbbsv/refs/heads/main/%E8%8A%82%E7%82%B9/%E8%B5%9B%E7%9B%BE.txt",
+    "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml",
     "https://raw.githubusercontent.com/lhrkkk/stow/763f7b3654ebe02db3ea63d7895fcd46740404e4/mac-home/.config/clash/jms.auto.yaml",      
     "https://raw.githubusercontent.com/WLget/V2Ray_configs_64/master/ConfigSub_list.txt",    
     "https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/refs/heads/master/node.txt", 
@@ -65,22 +65,22 @@ SUPPORTED_PROTOCOLS = [
 TEST_URLS = [
     "http://www.gstatic.com/generate_204",  # Google测试
 ]
-CONNECTION_TIMEOUT = 10  # 连接超时时间，单位为秒
+CONNECTION_TIMEOUT = 10  # 连接超时时间,单位为秒
 MAX_CONCURRENT_TESTS = 100  # 最大并发测试数量
-DEBUG_MODE = True  # 默认开启调试模式，方便查看处理过程
+DEBUG_MODE = True  # 默认开启调试模式,方便查看处理过程
 
 # 核心程序配置
-CORE_PATH = None  # 核心程序路径，将自动检测
+CORE_PATH = None  # 核心程序路径,将自动检测
 
 def is_github_raw_url(url):
     """判断是否为GitHub的raw URL"""
     return 'raw.githubusercontent.com' in url
 
 def extract_file_pattern(url):
-    """从URL中提取文件模式，例如{x}.yaml中的.yaml"""
+    """从URL中提取文件模式,例如{x}.yaml中的.yaml"""
     match = re.search(r'\{x\}(\.[a-zA-Z0-9]+)(?:/|$)', url)
     if match:
-        return match.group(1)  # 返回文件后缀，如 '.yaml', '.txt', '.json'
+        return match.group(1)  # 返回文件后缀,如 '.yaml', '.txt', '.json'
     return None
 
 def get_github_filename(github_url, file_suffix):
@@ -133,10 +133,10 @@ def get_github_filename(github_url, file_suffix):
         try:
             response = requests.get(proxy_api_url, timeout=30)
             if response.status_code != 200:
-                print("代理访问失败，尝试直接访问GitHub API")
+                print("代理访问失败,尝试直接访问GitHub API")
                 response = requests.get(api_url, timeout=30)
         except Exception as e:
-            print(f"代理访问失败: {str(e)}，尝试直接访问")
+            print(f"代理访问失败: {str(e)},尝试直接访问")
             response = requests.get(api_url, timeout=30)
             
         if response.status_code != 200:
@@ -157,7 +157,7 @@ def get_github_filename(github_url, file_suffix):
         matching_files = [f['name'] for f in files if f['name'].endswith(file_suffix)]
         
         if not matching_files:
-            print(f"未找到匹配{file_suffix}后缀的文件，目录包含: {[f['name'] for f in files][:10]}")
+            print(f"未找到匹配{file_suffix}后缀的文件,目录包含: {[f['name'] for f in files][:10]}")
             return None
         
         # 排序并选择第一个匹配的文件（通常选择最近的文件）
@@ -175,24 +175,24 @@ def get_github_filename(github_url, file_suffix):
 def format_current_date(url):
     """替换URL中的日期占位符和{x}占位符"""
     # 定义和生成所有可能的日期格式变量
-    现在 = datetime.now()
+    now = datetime.now()
     date_vars = {
         # 基本日期组件
-        'Y': now.strftime('%Y'),          # 年份，如2023
-        'm': now.strftime('%m'),          # 月份，如05
-        'd': now.strftime('%d'),          # 日期，如09
+        'Y': now.strftime('%Y'),          # 年份,如2023
+        'm': now.strftime('%m'),          # 月份,如05
+        'd': now.strftime('%d'),          # 日期,如09
         
         # 组合日期格式
-        'Ymd': now.strftime('%Y%m%d'),    # 组合格式，如20230509
-        'Y-m-d': now.strftime('%Y-%m-%d'), # 带连字符格式，如2023-05-09
-        'Y_m_d': now.strftime('%Y_%m_%d'), # 带下划线格式，如2023_05_09
+        'Ymd': now.strftime('%Y%m%d'),    # 组合格式,如20230509
+        'Y-m-d': now.strftime('%Y-%m-%d'), # 带连字符格式,如2023-05-09
+        'Y_m_d': now.strftime('%Y_%m_%d'), # 带下划线格式,如2023_05_09
         
         # 额外日期格式
-        'Y-m': now.strftime('%Y-%m'),     # 年月，如2023-05
-        'Y_m': now.strftime('%Y_%m'),     # 带下划线的年月，如2023_05
-        'md': now.strftime('%m%d'),       # 月日，如0509
-        'm-d': now.strftime('%m-%d'),     # 带连字符的月日，如05-09
-        'm_d': now.strftime('%m_%d'),     # 带下划线的月日，如05_09
+        'Y-m': now.strftime('%Y-%m'),     # 年月,如2023-05
+        'Y_m': now.strftime('%Y_%m'),     # 带下划线的年月,如2023_05
+        'md': now.strftime('%m%d'),       # 月日,如0509
+        'm-d': now.strftime('%m-%d'),     # 带连字符的月日,如05-09
+        'm_d': now.strftime('%m_%d'),     # 带下划线的月日,如05_09
     }
     
     # 处理日期占位符
@@ -201,7 +201,7 @@ def format_current_date(url):
     except KeyError as e:
         print(f"URL中包含未支持的日期格式占位符: {e}")
         print(f"支持的日期占位符有: {', '.join(date_vars.keys())}")
-        return url  # 返回原始URL，让后续处理决定是否跳过
+        return url  # 返回原始URL,让后续处理决定是否跳过
     
     # 处理{x}占位符
     if '{x}' in formatted_url:
@@ -226,24 +226,24 @@ def fetch_content(url):
         now = datetime.now()
         date_vars = {
             # 基本日期组件
-            'Y': now.strftime('%Y'),          # 年份，如2023
-            'm': now.strftime('%m'),          # 月份，如05
-            'd': now.strftime('%d'),          # 日期，如09
+            'Y': now.strftime('%Y'),          # 年份,如2023
+            'm': now.strftime('%m'),          # 月份,如05
+            'd': now.strftime('%d'),          # 日期,如09
             
             # 组合日期格式
-            'Ymd': now.strftime('%Y%m%d'),    # 组合格式，如20230509
-            'Y-m-d': now.strftime('%Y-%m-%d'), # 带连字符格式，如2023-05-09
-            'Y_m_d': now.strftime('%Y_%m_%d'), # 带下划线格式，如2023_05_09
+            'Ymd': now.strftime('%Y%m%d'),    # 组合格式,如20230509
+            'Y-m-d': now.strftime('%Y-%m-%d'), # 带连字符格式,如2023-05-09
+            'Y_m_d': now.strftime('%Y_%m_%d'), # 带下划线格式,如2023_05_09
             
             # 额外日期格式
-            'Y-m': now.strftime('%Y-%m'),     # 年月，如2023-05
-            'Y_m': now.strftime('%Y_%m'),     # 带下划线的年月，如2023_05
-            'md': now.strftime('%m%d'),       # 月日，如0509
-            'm-d': now.strftime('%m-%d'),     # 带连字符的月日，如05-09
-            'm_d': now.strftime('%m_%d'),     # 带下划线的月日，如05_09
+            'Y-m': now.strftime('%Y-%m'),     # 年月,如2023-05
+            'Y_m': now.strftime('%Y_%m'),     # 带下划线的年月,如2023_05
+            'md': now.strftime('%m%d'),       # 月日,如0509
+            'm-d': now.strftime('%m-%d'),     # 带连字符的月日,如05-09
+            'm_d': now.strftime('%m_%d'),     # 带下划线的月日,如05_09
         }
         
-        # 先将{x}占位符临时替换，以免被format误处理
+        # 先将{x}占位符临时替换,以免被format误处理
         temp_marker = "___X_PLACEHOLDER___"
         temporary_url = url.replace("{x}", temp_marker)
         
@@ -251,7 +251,7 @@ def fetch_content(url):
         try:
             formatted_url = temporary_url.format(**date_vars)
         except KeyError as e:
-            # 如果format失败，尝试手动替换
+            # 如果format失败,尝试手动替换
             print(f"URL中包含未支持的日期格式占位符: {e}")
             print(f"支持的日期占位符有: {', '.join(date_vars.keys())}")
             formatted_url = temporary_url
@@ -275,7 +275,7 @@ def fetch_content(url):
         if '{x}' in formatted_url:
             file_suffix = extract_file_pattern(formatted_url)
             if file_suffix and is_github_raw_url(formatted_url):
-                print(f"在URL中找到{{x}}占位符，尝试获取匹配的文件...")
+                print(f"在URL中找到{{x}}占位符,尝试获取匹配的文件...")
                 filename = get_github_filename(formatted_url, file_suffix)
                 if filename:
                     pattern = r'\{x\}' + re.escape(file_suffix)
@@ -284,11 +284,11 @@ def fetch_content(url):
                 else:
                     print(f"警告: 未能获取匹配{file_suffix}的文件")
             else:
-                print(f"警告: 无法处理{{x}}占位符，URL不是GitHub raw链接或找不到文件后缀")
+                print(f"警告: 无法处理{{x}}占位符,URL不是GitHub raw链接或找不到文件后缀")
         
         print(f"实际请求URL: {formatted_url}")
         
-        # 模拟Chrome浏览器请求头，与curl命令类似
+        # 模拟Chrome浏览器请求头,与curl命令类似
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -313,7 +313,7 @@ def fetch_content(url):
         if use_session:
             # 使用Session对象来保持cookie等状态
             session = requests.Session()
-            # 先发送一个HEAD请求，获取cookie等信息
+            # 先发送一个HEAD请求,获取cookie等信息
             session.head(formatted_url, headers=headers, timeout=30)
             response = session.get(formatted_url, headers=headers, timeout=60, stream=True)
         else:
@@ -322,7 +322,7 @@ def fetch_content(url):
         
         response.raise_for_status()
         
-        # 检查Content-Type，确保正确处理各种类型的内容
+        # 检查Content-Type,确保正确处理各种类型的内容
         content_type = response.headers.get('Content-Type', '').lower()
         # print(f"Content-Type: {content_type}")
         
@@ -344,10 +344,10 @@ def fetch_content(url):
                 except UnicodeDecodeError:
                     continue
             else:
-                # 如果所有编码都失败，使用默认UTF-8
+                # 如果所有编码都失败,使用默认UTF-8
                 content = response.content.decode('utf-8', errors='ignore')
                 
-            # 如果网址是特殊站点但仍然得到乱码，尝试拆解HTML标记
+            # 如果网址是特殊站点但仍然得到乱码,尝试拆解HTML标记
             if use_session and not any(indicator in content for indicator in ['proxies:', 'vmess://', 'trojan://', 'ss://', 'vless://']):
                 try:
                     # 尝试解析HTML并提取内容
@@ -361,13 +361,13 @@ def fetch_content(url):
                             content = element_text
                             break
                 except ImportError:
-                    print("未安装BeautifulSoup，跳过HTML解析")
+                    print("未安装BeautifulSoup,跳过HTML解析")
                 except Exception as e:
                     print(f"HTML解析错误: {str(e)}")
         # 3. 处理可能是base64编码的内容
         elif 'text/base64' in content_type:
             content = response.content.decode('utf-8', errors='ignore')
-        # 4. 处理其他文本格式，如json
+        # 4. 处理其他文本格式,如json
         elif 'application/json' in content_type or 'text/' in content_type:
             content = response.content.decode('utf-8', errors='ignore')
         # 5. 默认情况
@@ -377,7 +377,7 @@ def fetch_content(url):
         # 测试内容是否可能是Base64编码
         if not any(indicator in content for indicator in ['proxies:', 'vmess://', 'trojan://', 'ss://', 'vless://']):
             try:
-                # 移除空白字符，尝试base64解码
+                # 移除空白字符,尝试base64解码
                 cleaned_content = re.sub(r'\s+', '', content)
                 # 添加适当的填充
                 padding = len(cleaned_content) % 4
@@ -388,10 +388,10 @@ def fetch_content(url):
                 decoded_text = decoded.decode('utf-8', errors='ignore')
                 
                 if any(indicator in decoded_text for indicator in ['proxies:', 'vmess://', 'trojan://', 'ss://', 'vless://']):
-                    print("检测到Base64编码的订阅内容，已成功解码")
+                    print("检测到Base64编码的订阅内容,已成功解码")
                     content = decoded_text
             except:
-                # 解码失败，继续使用原始内容
+                # 解码失败,继续使用原始内容
                 pass
             
         return content
@@ -411,13 +411,13 @@ def parse_clash_yaml(content):
         if not data:
             return []
         
-        # 直接查找proxies字段，无论它在哪个层级
+        # 直接查找proxies字段,无论它在哪个层级
         if 'proxies' in data:
             if DEBUG_MODE:
                 print(f"从YAML中找到 {len(data['proxies'])} 个节点")
             return data['proxies']
             
-        # 如果没有找到proxies字段，尝试其他可能的字段名
+        # 如果没有找到proxies字段,尝试其他可能的字段名
         for key in ['proxy-providers', 'Proxy', 'proxys']:
             if key in data and isinstance(data[key], list):
                 if DEBUG_MODE:
@@ -545,7 +545,7 @@ def parse_v2ray_uri(uri):
                         else:
                             method, password = 'aes-256-gcm', userinfo
                     except:
-                        # 如果不是base64编码，可能是明文
+                        # 如果不是base64编码,可能是明文
                         if ':' in userinfo:
                             method, password = userinfo.split(':', 1)
                         else:
@@ -553,7 +553,7 @@ def parse_v2ray_uri(uri):
                 else:
                     method, password = 'aes-256-gcm', ''
                 
-                # 如果查询参数中包含remarks，优先使用它
+                # 如果查询参数中包含remarks,优先使用它
                 query = parse_qs(parsed.query)
                 if 'remarks' in query:
                     name = query.get('remarks', ['Unknown'])[0]
@@ -590,11 +590,11 @@ def parse_v2ray_uri(uri):
                         }
                 except Exception as e:
                     # print(f"Invalid ss URI format: {uri}, error: {str(e)}")
-                    return 无
+                    return None
 
         # 处理shadowsocksr协议
         elif uri.startswith('ssr://'):
-            b64_config = uri.替换('ssr://'， '')
+            b64_config = uri.replace('ssr://', '')
             try:
                 # 确保base64正确填充
                 b64_config = b64_config + '=' * (-len(b64_config) % 4)
@@ -610,14 +610,14 @@ def parse_v2ray_uri(uri):
                     obfs = parts[4]
                     
                     # 处理剩余参数
-                    password_and_params = parts[5]。split('/?', 1)
+                    password_and_params = parts[5].split('/?', 1)
                     password_b64 = password_and_params[0]
                     password = base64.b64decode(password_b64 + '=' * (-len(password_b64) % 4)).decode()
                     
                     # 提取参数
                     name = 'Unknown'
-                    if len(password_and_params) > 1 和 'remarks=' in password_and_params[1]:
-                        remarks_b64 = password_and_params[1]。split('remarks=', 1)[1].split('&', 1)[0]
+                    if len(password_and_params) > 1 and 'remarks=' in password_and_params[1]:
+                        remarks_b64 = password_and_params[1].split('remarks=', 1)[1].split('&', 1)[0]
                         try:
                             name = base64.b64decode(remarks_b64 + '=' * (-len(remarks_b64) % 4)).decode()
                         except:
@@ -627,7 +627,7 @@ def parse_v2ray_uri(uri):
                         'type': 'ssr',
                         'name': name,
                         'server': server,
-                        'port': int(port)，
+                        'port': int(port),
                         'protocol': protocol,
                         'cipher': method,
                         'obfs': obfs,
@@ -635,7 +635,7 @@ def parse_v2ray_uri(uri):
                     }
             except Exception as e:
                 # print(f"Error parsing SSR URI: {str(e)}")
-                return 无
+                return None
                 
         # 处理HTTP/HTTPS协议
         elif uri.startswith(('http://', 'https://')):
@@ -644,8 +644,8 @@ def parse_v2ray_uri(uri):
             return {
                 'type': 'http' if uri.startswith('http://') else 'https',
                 'name': query.get('remarks', ['Unknown'])[0],
-                'server': parsed.hostname 或 ''，
-                'port': parsed.port 或 (80 if uri.startswith('http://') else 443),
+                'server': parsed.hostname or '',
+                'port': parsed.port or (80 if uri.startswith('http://') else 443),
                 'username': parsed.username or '',
                 'password': parsed.password or ''
             }
@@ -660,7 +660,7 @@ def parse_v2ray_uri(uri):
                 'server': parsed.hostname or '',
                 'port': parsed.port or 1080,
                 'username': parsed.username or '',
-                'password': parsed.password 或 ''
+                'password': parsed.password or ''
             }
             
         # 处理hysteria协议
@@ -669,9 +669,9 @@ def parse_v2ray_uri(uri):
             query = parse_qs(parsed.query)
             return {
                 'type': 'hysteria',
-                'name': query.get('peer'， ['Unknown'])[0]，
-                'server': parsed.hostname 或 ''，
-                'port': parsed.port 或 443，
+                'name': query.get('peer', ['Unknown'])[0],
+                'server': parsed.hostname or '',
+                'port': parsed.port or 443,
                 'protocol': query.get('protocol', [''])[0],
                 'auth': parsed.username or query.get('auth', [''])[0]
             }
@@ -695,7 +695,7 @@ def parse_v2ray_uri(uri):
         return None
 
 def extract_nodes(content):
-    """级联提取节点，按照Base64 -> YAML -> 正则表达式 -> JSON的顺序尝试"""
+    """级联提取节点,按照Base64 -> YAML -> 正则表达式 -> JSON的顺序尝试"""
     if not content:
         return []
     
@@ -704,7 +704,7 @@ def extract_nodes(content):
     
     # 1. 尝试Base64解码提取
     try:
-        # 处理多行base64，移除所有空白字符和特殊字符
+        # 处理多行base64,移除所有空白字符和特殊字符
         cleaned_content = re.sub(r'[\s\n\r\t]+', '', content)
         cleaned_content = re.sub(r'[^A-Za-z0-9+/=]', '', cleaned_content)
         
@@ -734,7 +734,7 @@ def extract_nodes(content):
     except Exception as e:
         print(f"Base64预处理失败: {str(e)}")
     
-    # 如果已经提取到节点，直接返回
+    # 如果已经提取到节点,直接返回
     if len(nodes) > 0:
         print(f"通过【{methods_tried[-1]}】方法成功提取到{len(nodes)}个节点")
         return nodes
@@ -744,7 +744,7 @@ def extract_nodes(content):
         # 移除HTML标签和特殊标记
         cleaned_content = re.sub(r'<[^>]+>|!&lt;str&gt;', '', content)
         
-        # 更强大的YAML格式检测，查找常见Clash配置特征
+        # 更强大的YAML格式检测,查找常见Clash配置特征
         yaml_indicators = [
             'proxies:', 'Proxy:', 'proxy:', 'proxy-providers:', 
             'port:', 'socks-port:', 'allow-lan:', 'mode:',
@@ -764,7 +764,7 @@ def extract_nodes(content):
             except Exception as yaml_error:
                 print(f"标准YAML解析失败: {str(yaml_error)}")
                 
-                # 如果标准解析失败，尝试更宽松的解析方式
+                # 如果标准解析失败,尝试更宽松的解析方式
                 try:
                     # 尝试提取proxies部分
                     proxies_match = re.search(r'proxies:\s*\n([\s\S]+?)(?:\n\w+:|$)', cleaned_content)
@@ -779,7 +779,7 @@ def extract_nodes(content):
     except Exception as e:
         print(f"YAML解析过程出错: {str(e)}")
     
-    # 如果已经提取到节点，直接返回
+    # 如果已经提取到节点,直接返回
     if len(nodes) > 0:
         print(f"通过【{methods_tried[-1]}】方法成功提取到{len(nodes)}个节点")
         return nodes
@@ -795,10 +795,10 @@ def extract_nodes(content):
                 # vmess通常是一个base64编码的字符串
                 found_nodes = re.findall(r'vmess://[A-Za-z0-9+/=]+', content)
             elif protocol == 'hysteria://' or protocol == 'wireguard://':
-                # 这些协议可能有特殊格式，需要特别处理
+                # 这些协议可能有特殊格式,需要特别处理
                 found_nodes = re.findall(f'{protocol}[^"\'<>\\s]+', content)
             else:
-                # 对于其他协议，采用通用正则表达式
+                # 对于其他协议,采用通用正则表达式
                 found_nodes = re.findall(f'{protocol}[^"\'<>\\s]+', content)
             
             for uri in found_nodes:
@@ -808,7 +808,7 @@ def extract_nodes(content):
     except Exception as e:
         print(f"正则表达式提取失败: {str(e)}")
     
-    # 如果已经提取到节点，直接返回
+    # 如果已经提取到节点,直接返回
     if len(nodes) > 0:
         print(f"通过【{methods_tried[-1]}】方法成功提取到{len(nodes)}个节点")
         return nodes
@@ -818,7 +818,7 @@ def extract_nodes(content):
         # print("尝试解析JSON格式")
         methods_tried.append("JSON")
         
-        # 清理内容，移除可能的HTML标签和注释
+        # 清理内容,移除可能的HTML标签和注释
         cleaned_content = re.sub(r'<[^>]+>|/\*.*?\*/|//.*?$', '', content, flags=re.MULTILINE)
         
         # 尝试解析JSON
@@ -840,7 +840,7 @@ def extract_nodes(content):
                         if json_nodes:
                             # print(f"从JSON片段中提取到{len(json_nodes)}个节点")
                             nodes.extend(json_nodes)
-                            # 找到有效的JSON片段后，不再继续查找
+                            # 找到有效的JSON片段后,不再继续查找
                             break
                     except:
                         continue
@@ -891,7 +891,7 @@ def parse_json_nodes(json_data):
 
 def parse_single_json_node(item):
     """解析单个JSON节点数据"""
-    # 如果不是字典，直接返回
+    # 如果不是字典,直接返回
     if not isinstance(item, dict):
         return None
     
@@ -1005,7 +1005,7 @@ def download_xray_core():
 
     if system == "Darwin":
         xray_dir = "xray-core/macos-64"
-        asset_name = "Xray-macos-64.zip"  # 统一用官方Intel版，Apple Silicon可Rosetta运行
+        asset_name = "Xray-macos-64.zip"  # 统一用官方Intel版,Apple Silicon可Rosetta运行
         exe_name = "xray"
     elif system == "Linux":
         xray_dir = "xray-core/linux-64"
@@ -1088,7 +1088,7 @@ def find_core_program():
         print(f"找到Xray核心程序: {CORE_PATH}")
         return CORE_PATH
     # 没有找到则自动下载
-    print("未找到Xray核心，自动下载...")
+    print("未找到Xray核心,自动下载...")
     exe_path = download_xray_core()
     if exe_path and os.path.isfile(exe_path):
         CORE_PATH = exe_path
@@ -1111,7 +1111,7 @@ def find_available_port(start_port=10000, end_port=60000):
             continue
 
 def generate_v2ray_config(node, local_port):
-    """根据节点信息生成V2Ray配置文件，采用与V2RayN相同的配置方式"""
+    """根据节点信息生成V2Ray配置文件,采用与V2RayN相同的配置方式"""
     config = {
         "inbounds": [
             {
@@ -1132,11 +1132,11 @@ def generate_v2ray_config(node, local_port):
             # 出站连接将根据节点类型生成
         ],
         "log": {
-            "loglevel": "none"  # 禁止日志输出，减少干扰
+            "loglevel": "none"  # 禁止日志输出,减少干扰
         }
     }
     
-    # 根据节点类型配置出站连接，参考V2RayN的配置方式
+    # 根据节点类型配置出站连接,参考V2RayN的配置方式
     if node['type'] == 'vmess':
         # 基本VMess配置
         outbound = {
@@ -1162,7 +1162,7 @@ def generate_v2ray_config(node, local_port):
             }
         }
         
-        # 添加网络特定配置，参考V2RayN的配置
+        # 添加网络特定配置,参考V2RayN的配置
         if node.get('network') == 'ws':
             outbound["streamSettings"]["wsSettings"] = {
                 "path": node.get('path', '/'),
@@ -1323,7 +1323,7 @@ def generate_v2ray_config(node, local_port):
             }
         }
         
-        # 如果有用户名和密码，添加到配置中
+        # 如果有用户名和密码,添加到配置中
         if node.get('username') and node.get('password'):
             outbound["settings"]["servers"][0]["users"] = [
                 {
@@ -1349,7 +1349,7 @@ def generate_v2ray_config(node, local_port):
             }
         }
         
-        # 如果有用户名和密码，添加到配置中
+        # 如果有用户名和密码,添加到配置中
         if node.get('username') and node.get('password'):
             outbound["settings"]["servers"][0]["users"] = [
                 {
@@ -1382,7 +1382,7 @@ def generate_v2ray_config(node, local_port):
         if DEBUG_MODE:
             print(f"生成SSR配置: {json.dumps(config['outbounds'][0], ensure_ascii=False)}")
     elif node['type'] == 'hysteria':
-        # Hysteria配置（Xray支持hysteria2，部分参数需适配）
+        # Hysteria配置（Xray支持hysteria2,部分参数需适配）
         config["outbounds"] = [{
             "protocol": "hysteria2",
             "settings": {
@@ -1419,7 +1419,7 @@ def generate_v2ray_config(node, local_port):
             print(f"生成WireGuard配置: {json.dumps(config['outbounds'][0], ensure_ascii=False)}")
     else:
         if DEBUG_MODE:
-            print(f"警告: 节点类型 {node['type']} 不被支持，跳过。节点信息: {node}")
+            print(f"警告: 节点类型 {node['type']} 不被支持,跳过。节点信息: {node}")
         return None
 
     return config
@@ -1428,7 +1428,7 @@ def test_node_latency(node):
     """使用核心程序测试节点延迟"""
     if not CORE_PATH:
         if DEBUG_MODE:
-            print("未找到核心程序，无法进行延迟测试")
+            print("未找到核心程序,无法进行延迟测试")
         return -1
     
     # 为测试创建临时目录
@@ -1450,7 +1450,7 @@ def test_node_latency(node):
     # 启动核心进程
     core_process = None
     try:
-        # 设置代理环境变量，使用SOCKS代理
+        # 设置代理环境变量,使用SOCKS代理
         proxies = {
             'http': f'socks5://127.0.0.1:{local_port}',
             'https': f'socks5://127.0.0.1:{local_port}'
@@ -1463,7 +1463,7 @@ def test_node_latency(node):
             'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
         }
         
-        # 在Windows上，使用CREATE_NO_WINDOW标志隐藏控制台窗口
+        # 在Windows上,使用CREATE_NO_WINDOW标志隐藏控制台窗口
         startupinfo = None
         if platform.system() == "Windows":
             startupinfo = subprocess.STARTUPINFO()
@@ -1539,7 +1539,7 @@ def test_latency(node):
     """测试节点延迟"""
     # 必须有核心程序才能进行测试
     if not CORE_PATH:
-        print(f"未找到核心程序，无法测试节点: {node['name']}")
+        print(f"未找到核心程序,无法测试节点: {node['name']}")
         return -1
     
     # 使用核心程序进行精确测试
@@ -1548,7 +1548,7 @@ def test_latency(node):
     return latency
 
 def process_node(node):
-    """处理单个节点，添加延迟信息"""
+    """处理单个节点,添加延迟信息"""
     if not node or 'name' not in node or 'server' not in node:
         return None
 
@@ -1558,12 +1558,12 @@ def process_node(node):
     # 过滤掉延迟为0ms或连接失败的节点
     if latency <= 0:
         # status = "连接失败" if latency == -1 else "延迟为0ms"
-        # print(f"节点: {node['name']} ，{status}，跳过")
+        # print(f"节点: {node['name']} ,{status},跳过")
         return None
     
-    # 更新节点名称，添加延迟信息
+    # 更新节点名称,添加延迟信息
     node['name'] = f"{node['name']} [{latency}ms]"
-    print(f"有效节点: {node['name']} ，延迟: {latency}ms")
+    print(f"有效节点: {node['name']} ,延迟: {latency}ms")
     return node
 
 def remove_duplicates(nodes):
@@ -1648,7 +1648,7 @@ def node_to_v2ray_uri(node):
 def standardize_nodes(nodes):
     """
     对节点列表进行标准化处理：
-    1. 如果节点名称缺失、为None、空字符串、空格或为Unknown，则自动补全为"美国01"、"美国02"等。
+    1. 如果节点名称缺失、为None、空字符串、空格或为Unknown,则自动补全为"美国01"、"美国02"等。
     2. 保证所有节点的name字段不为空。
     3. 补全时输出调试信息。
     """
@@ -1658,7 +1658,7 @@ def standardize_nodes(nodes):
         name = node.get('name')
         if name is None or str(name).strip() == '' or str(name).strip().lower() == 'unknown':
             node['name'] = f"{country_prefix}{count:02d}"
-            print(f"节点 {node.get('type','')} {node.get('server','')}:{node.get('port','')} 名称缺失，自动补全为: {node['name']}")
+            print(f"节点 {node.get('type','')} {node.get('server','')}:{node.get('port','')} 名称缺失,自动补全为: {node['name']}")
             count += 1
     return nodes
 
@@ -1668,7 +1668,7 @@ def main():
     # 查找核心程序
     CORE_PATH = find_core_program()
     if not CORE_PATH:
-        print("警告: 未找到核心程序，将跳过节点测试，但仍会生成all.txt文件")
+        print("警告: 未找到核心程序,将跳过节点测试,但仍会生成all.txt文件")
     
     all_nodes = []
     
@@ -1678,7 +1678,7 @@ def main():
         print(f"\n正在处理订阅链接: {link}")
         content = fetch_content(link)
         if not content:
-            print("获取失败，跳过该链接")
+            print("获取失败,跳过该链接")
             continue
             
         # 使用新的级联提取函数
@@ -1701,7 +1701,7 @@ def main():
     valid_nodes = []
     if CORE_PATH:
         print(f"\n开始测试节点延迟...")
-        # 限制并发数量，避免资源耗尽
+        # 限制并发数量,避免资源耗尽
         with ThreadPoolExecutor(max_workers=MAX_CONCURRENT_TESTS) as executor:
             future_to_node = {executor.submit(process_node, node): node for node in all_nodes}
             for future in as_completed(future_to_node):
@@ -1709,9 +1709,9 @@ def main():
                 if processed_node:
                     valid_nodes.append(processed_node)
         
-        print(f"\n测试完成，有效节点数量: {len(valid_nodes)}")
+        print(f"\n测试完成,有效节点数量: {len(valid_nodes)}")
     else:
-        print(f"\n跳过节点测试（无核心程序），将使用所有节点")
+        print(f"\n跳过节点测试（无核心程序）,将使用所有节点")
         valid_nodes = all_nodes
     
     # 收集所有有效节点的URI
@@ -1725,7 +1725,7 @@ def main():
     
     # 新增：保存所有去重合并后的节点到all.txt（原始格式）
     try:
-        print(f"\n准备写入 all.txt，当前工作目录: {os.getcwd()}")
+        print(f"\n准备写入 all.txt,当前工作目录: {os.getcwd()}")
         all_uris = []
         for node in all_nodes:
             uri = node_to_v2ray_uri(node)
@@ -1737,15 +1737,15 @@ def main():
                 f.write('\n'.join(all_uris))
             print(f"✅ 已将所有去重合并后的节点保存到 all.txt 文件 (共{len(all_uris)}个节点)")
         else:
-            print("⚠️ 没有找到任何节点，创建空的all.txt文件")
+            print("⚠️ 没有找到任何节点,创建空的all.txt文件")
             with open('all.txt', 'w', encoding='utf-8') as f:
                 f.write('# 暂无可用节点\n')
     except Exception as e:
         print(f"❌ 保存all.txt失败: {e}")
-        print("请检查GitHub Actions是否有写入权限，或 workflow 是否将 all.txt 文件 git add 并提交。")
+        print("请检查GitHub Actions是否有写入权限,或 workflow 是否将 all.txt 文件 git add 并提交。")
     
-    # 将所有URI合并为一个字符串，并进行base64编码
-    print(f"\n准备生成文件，有效节点数量: {valid_uri_count}")
+    # 将所有URI合并为一个字符串,并进行base64编码
+    print(f"\n准备生成文件,有效节点数量: {valid_uri_count}")
     if valid_uri_count > 0:
         uri_content = '\n'.join(valid_uris)
         base64_content = base64.b64encode(uri_content.encode('utf-8')).decode('utf-8')
@@ -1758,7 +1758,7 @@ def main():
         except Exception as e:
             print(f"❌ 保存v2ray.txt失败: {e}")
         
-        # 同时保存一个原始文本版本，方便查看
+        # 同时保存一个原始文本版本,方便查看
         try:
             with open('v2ray_raw.txt', 'w', encoding='utf-8') as f:
                 f.write(uri_content)
@@ -1766,8 +1766,8 @@ def main():
         except Exception as e:
             print(f"❌ 保存v2ray_raw.txt失败: {e}")
     else:
-        print("\n⚠️ 未找到有效节点，但仍会生成all.txt文件")
-        # 即使没有有效节点，也生成空的v2ray.txt文件
+        print("\n⚠️ 未找到有效节点,但仍会生成all.txt文件")
+        # 即使没有有效节点,也生成空的v2ray.txt文件
         try:
             with open('v2ray.txt', 'w', encoding='utf-8') as f:
                 f.write('# 暂无可用节点\n')
