@@ -373,23 +373,25 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzMy5wb3J0YWJsZXN1Ym1hcmluZXMu
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzNC5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IiwgImFkZCI6ICJjMjZzNC5wb3J0YWJsZXN1Ym1hcmluZXMuY29tIiwgInBvcnQiOiAiMTkxMzgiLCAiaWQiOiAiYmRjMmRjMmQtNzMyMy00NmU5LThhOWMtOGU3ZDUyMWY4YjQzIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzNS5wb3J0YWJsZXN1Ym1hcmluZXMuY29tOjE5MTM4IiwgImFkZCI6ICJjMjZzNS5wb3J0YWJsZXN1Ym1hcmluZXMuY29tIiwgInBvcnQiOiAiMTkxMzgiLCAiaWQiOiAiYmRjMmRjMmQtNzMyMy00NmU5LThhOWMtOGU3ZDUyMWY4YjQzIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSk1TLTg0OTY3M0BjMjZzODAxLnBvcnRhYmxlc3VibWFyaW5lcy5jb206MTkxMzgiLCAiYWRkIjogImMyNnM4MDEucG9ydGFibGVzdWJtYXJpbmVzLmNvbSIsICJwb3J0IjogIjE5MTM4IiwgImlkIjogImJkYzJkYzJkLTczMjMtNDZlOS04YTljLThlN2Q1MjFmOGI0MyIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAidm1lc3MiLCAidGxzIjogIiJ9
-trojan://e2c415b4-ec9d-4fcb-8246-04390246b954@xiaozhu1.kkieo555.cn:41275?sni=douyin.com
-trojan://6c2cd2dd-acf9-45a2-aa52-d0bd84cc157d@xiaozhu1.kkieo555.cn:49213?sni=douyin.com
-trojan://67cb5f25-7ac0-4e62-b9e4-666be7207dc1@xiaozhu1.kkieo555.cn:41273?sni=douyin.com
-trojan://d6a5ef8d-4b68-40fd-a929-8b902bc5afe5@xiaozhu1.kkieo555.cn:41274?sni=douyin.com
-trojan://d5bbdba6-a3ca-4771-8cca-c0f61da7b9c0@xiaozhu1.kkieo555.cn:41277?sni=douyin.com
-trojan://a1d18294-1fae-41e6-8c81-5b1e7d769faf@xiaozhu1.kkieo555.cn:49214?sni=douyin.com
-trojan://ee36d4f2-b1d5-4da4-bd32-3d371e28fb7a@xiaozhu1.kkieo555.cn:30210?sni=douyin.com
-ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@hkg24-20250621185858bb8394.singdns.com:23341#香港流媒体专享 [1491ms]
-ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@hkg24-20250621190455900606.singdns.com:23342#香港 [2714ms]
-ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@wujiejapan02.singdns.com:21712#日本 [458ms]
-ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@wujieusa01.singdns.com:23344#美国 [150ms]
-ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33111#🇭🇰 香港HK01-专线中继 [1243ms]
-ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33112#🇭🇰 香港HK02-专线中继 [491ms]
-ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33115#🇯🇵 日本JP01-专线中继 [590ms]
-ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33117#🇸🇬 新加坡SG01-专线中继 [544ms]
-ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33119#🇺🇸 美国US01-专线中继 [733ms]
-ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33122#🇲🇾 狮城01-专线中继 [636ms]
+trojan://fed36fdb-7b63-4c33-8389-76b749047223@xiaozhu1.kkieo555.cn:49213?sni=douyin.com
+trojan://4b716d4e-2d2f-4d3a-b696-feb00a889921@xiaozhu1.kkieo555.cn:41273?sni=douyin.com
+trojan://0a7e80b3-725f-4b4f-a779-b1b369f39a14@xiaozhu1.kkieo555.cn:41274?sni=douyin.com
+trojan://9ec4cb72-4b0f-4b42-ac6c-228a7bb28bab@xiaozhu1.kkieo555.cn:41275?sni=douyin.com
+trojan://eb1640f8-104e-4191-ae44-b747d69dd802@xiaozhu1.kkieo555.cn:41277?sni=douyin.com
+trojan://4b4fd645-d643-402a-86aa-7c7da1e0ccaa@xiaozhu1.kkieo555.cn:49214?sni=douyin.com
+trojan://4f8c3cd4-c137-49dc-8fef-1f7a15b917a0@xiaozhu1.kkieo555.cn:30210?sni=douyin.com
+trojan://ec88a9f2-d02b-4e7b-80b7-742d011a2aac@xiaozhu1.kkieo555.cn:19216?sni=douyin.com
+ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@hkg24-20250621185858bb8394.singdns.com:23341#香港流媒体专享 [546ms]
+ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@hkg24-20250621190455900606.singdns.com:23342#香港 [685ms]
+ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@wujiejapan02.singdns.com:21712#日本 [464ms]
+ss://YWVzLTEyOC1nY206NzlhZDI4NTItZWI3Ni00YzNlLWJhNGQtMzY2OGVlNWVjZTc0@wujieusa01.singdns.com:23344#美国 [209ms]
+ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33111#🇭🇰 香港HK01-专线中继 [487ms]
+ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33112#🇭🇰 香港HK02-专线中继 [478ms]
+ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33115#🇯🇵 日本JP01-专线中继 [583ms]
+ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33117#🇸🇬 新加坡SG01-专线中继 [530ms]
+ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33119#🇺🇸 美国US01-专线中继 [796ms]
+ss://YWVzLTEyOC1nY206YTdiMDkwNWYtNzZjNS00ZDU4LTlhYmUtYzIxYjI3MzFmYWZj@sg.fasthou.icu:33122#🇲🇾 狮城01-专线中继 [692ms]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkODcwNTIzMy0yOThmLTQzZGEtOTJjYy0xNDU4Y2Y4ZDYxODA=@swk1.lieerr222.cn:39691#香港
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU5OTk5XHU2ZTJmIDAxXHUzMDEwSUVQTFx1MzAxMSIsICJhZGQiOiAibGFlZy5oc3ltYW51c2NyaXB0LnRvcCIsICJwb3J0IjogIjE5NTAxIiwgImlkIjogIjg0NTE1ZGJiLTEyY2EtNDY0Mi04NDcyLTI5MDA0MDllMzJhNyIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAidm1lc3MiLCAidGxzIjogIiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU2NWU1XHU2NzJjXHU0ZTI4XHU4OWUzR1BUIiwgImFkZCI6ICJsYWVnLmhzeW1hbnVzY3JpcHQudG9wIiwgInBvcnQiOiAiMTk1MDMiLCAiaWQiOiAiMzgxODFmYzctOTkyMi00MWMwLWJiMGQtNzQ4MmE5OTRjOTMxIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJ2bWVzcyIsICJ0bHMiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIDAxXHUzMDEwSUVQTFx1MzAxMSIsICJhZGQiOiAibGFlZy5oc3ltYW51c2NyaXB0LnRvcCIsICJwb3J0IjogIjQ5NTA0IiwgImlkIjogIjBjYjM4Mzc2LTY0YzEtNGFjZC05MTU1LTBiOTQ2NTE0ODE4NiIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAidm1lc3MiLCAidGxzIjogIiJ9
